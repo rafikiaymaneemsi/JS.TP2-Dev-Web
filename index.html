@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercices JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="conteneur">
+        <header>
+            <h1>Mes exercices JavaScript</h1>
+            <p class="intro">Sélectionnez une question pour afficher son résultat.</p>
+        </header>
+
+        <section class="exercice">
+            <span class="numero">01</span>
+            <h2>Variables et types</h2>
+            <div class="actions">
+                <button type="button" onclick="exo1q1()">Question 1</button>
+                <button type="button" onclick="exo1q2()">Question 2</button>
+            </div>
+        </section>
+
+        <section class="exercice">
+            <span class="numero">02</span>
+            <h2>Opérateurs et comparaisons</h2>
+            <div class="actions">
+                <button type="button" onclick="exo2q1()">Question 1</button>
+                <button type="button" onclick="exo2q2()">Question 2</button>
+            </div>
+        </section>
+
+        <section class="exercice">
+            <span class="numero">03</span>
+            <h2>Structures conditionnelles</h2>
+            <div class="actions">
+                <button type="button" onclick="exo3q1()">Question 1 - Vérification âge</button>
+                <button type="button" onclick="exo3q2()">Question 2 - Âge et pays</button>
+                <button type="button" onclick="exo3q3()">Question 3 - Note et appréciation</button>
+                <button type="button" onclick="exo3q4()">Question 4 - Gestion des erreurs</button>
+            </div>
+        </section>
+
+        <section class="exercice">
+            <span class="numero">04</span>
+            <h2>Structure switch</h2>
+            <div class="actions">
+                <button type="button" onclick="exo4q1()">Question 1 - Nombre et jour</button>
+                <button type="button" onclick="exo4q2()">Question 2 - Jour suivant</button>
+            </div>
+        </section>
+
+        <section class="exercice">
+            <span class="numero">05</span>
+            <h2>Boucles</h2>
+            <div class="actions">
+                <button type="button" onclick="exo5q1()">Question 1 - Nombres de 1 à 10</button>
+                <button type="button" onclick="exo5q2()">Question 2 - Nombres pairs</button>
+                <button type="button" onclick="exo5q3()">Question 3 - Factorielle</button>
+            </div>
+        </section>
+
+        <section class="exercice">
+            <span class="numero">06</span>
+            <h2>Simulation de mot de passe</h2>
+            <div class="actions">
+                <button type="button" onclick="exo6q1()">Question 1 - Mot de passe</button>
+                <button type="button" onclick="exo6q2()">Question 2 - Limite de 3 essais</button>
+            </div>
+        </section>
+
+        <section class="resultat-section">
+            <h2>Résultat</h2>
+            <div id="resultat" aria-live="polite">Sélectionnez une question pour afficher le résultat.</div>
+        </section>
+    </main>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
